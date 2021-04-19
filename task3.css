@@ -1,0 +1,238 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+ul>i{
+	font-size: 55px;
+}
+.container1 > ul{
+	list-style-type: none;
+	background-color:black;
+	padding: 8.1px;
+	text-decoration:none;
+	text-indent: 10px;
+	padding-bottom: 10px; 
+}
+.container1 > ul li{
+    display:inline;
+    padding: 10px; 
+    color: white;
+}
+.right{
+	float: right;
+	margin-top:-3.5px; 
+	padding-left: 8.1px;
+}
+li a{
+	text-decoration: none;
+	color: white;
+	font-style: bold;
+}
+.container2{
+	display: inherit;
+	margin-right:20px;
+	width: 100%;
+	background-color: gray;
+	padding:5px; 
+	border-bottom:10px solid white;
+}
+.container2 > h1{
+	font-family: algerian;
+	color: white;
+	font-size: 25px;
+	text-indent: 180px;
+	margin-top: -50px;
+}
+.tal{
+	color: white;
+	border : 1px solid #8200CD;
+	padding: 11px 45px 11px 45px;
+	float: center; 	
+	background-color: #9A0BD7;
+	margin-left: 550px;
+}
+.inp{
+	padding:11px 5px 11px 220px; 
+}
+.talent{
+	margin-top: -40px;
+	padding-bottom: 9px;
+}
+.container2 > p{
+	color: white;
+	margin-right: 6px;
+	float: right;
+	margin-top: -13px;
+} 
+.container3{
+	display: inline-flex;
+	margin-right:20px;
+	border: 2px solid lightgray;
+	width: 100%;
+	background-color: lightgray;
+	padding: 10px; 
+	border-bottom:5px solid black; 
+}
+.experience{
+	border: 2px hidden lightgray;
+	background-color: lightgray;
+	font-size: 16px;
+	padding: 10px;
+}
+.gender{
+	border: 2px hidden lightgray;
+	background-color: lightgray;
+	font-size: 16px;
+	padding: 10px;
+}
+.age{
+	border: 2px hidden lightgray;
+	background-color: lightgray;
+	font-size: 16px;
+	padding: 10px;
+}
+.height{
+    border: 2px hidden lightgray;
+	background-color: lightgray;
+	font-size: 16px;
+	padding: 10px;
+}
+.language{
+	border: 2px hidden lightgray;
+	background-color: lightgray;
+	font-size: 16px;
+	padding: 10px;
+}
+.active{
+	color: white;
+	border: 2px solid #9A0BD7;
+	background-color: #9A0BD7;
+	padding:8px 18px 8px 18px; 
+}
+label{
+	font-size: 16px;
+	margin-top: 10.5px;
+	text-indent: 10px;
+}
+
+input[type=text]{
+	padding:11px 300px 11px 11px;
+	text-align: left;
+	color: lightblue;
+}
+.apply{
+	padding: 8px 28px 8px 28px;
+	background-color:green;
+	border-style: hidden;
+	border-radius:3px;
+	margin-left: 110px;
+}
+.apply:hover{
+	border:2px solid black:
+	border-radius:3px;
+}
+.reset{
+	padding: 8px 28px 8px 28px;
+	background-color:red;
+	border-style: hidden;
+	margin-left:10px; 
+}
+.reset:hover{
+	border:2px solid black:
+	border-radius:3px;
+}
+select{
+	display: inline-flex;
+}
+.picture{
+	border: 2px hidden black;
+	height: 250px;
+	width: 274.3px;
+	text-align: justify;
+	margin-left: 65px;
+	float: right;
+	margin-top: 8px;
+	margin-bottom: 75px;
+	padding-right: 51px;
+}
+.hint{
+	margin-top: -5px;
+	border:1px solid blue;
+	height: 47px;
+	width:270px;
+	background-color: #9A0BD7;
+}
+.main{
+	padding-bottom:25px; 
+	padding-top:10px;
+	margin-right: 100px;
+}
+.hint > img{
+	float: right;
+	height: 40px;
+	width: 40px;
+	margin-top: -16px;
+}
+.footer{
+	background-color: black;
+	height: 220px;
+}
+.footer > ul{
+	list-style-type: none;
+	background-color:black;
+	padding: 8.1px;
+	padding-left: 2px;
+	text-decoration:none;
+	text-indent: 30px;
+	padding-bottom: 10px;
+}
+.footer > ul li{
+    display:inline;
+    padding: 2px;
+    color: white;
+}
+.hr{
+	border-color: red;
+	border-width: thin;
+}
+.ficon{
+	float: center;
+	position: relative;
+	margin-top: 25px;
+}
+.footer > h4{
+	text-align: center;
+	color: white;
+	margin-top: 18px;
+	margin-left: -27px;
+}
+.footer > h2{
+	font-family: algerian;
+	color: white;
+	margin-left: 688px;
+	margin-top: -63px;
+	position: relative;
+	font-size: 29.3px;
+}
+span{
+	border-style: solid;
+	border:1px solid black;
+	background-color: black;
+	padding-left: 13px;
+}
+button{
+	position: relative;
+    padding: 7px 27px 7px 27px;
+	margin-left: 705px;
+	border-bottom: 3.1px solid black;
+	border-right: 3.1px solid black;
+	border-top: 3.1px solid gray;
+	border-left: 3.1px solid gray;
+    margin-top: 20px;
+    font-size: 15.7px;
+}
+.footer > img{
+	margin-left:613px; 
+	margin-top:-33px;
+	position: relative;
+}
