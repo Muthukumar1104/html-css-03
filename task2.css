@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #EBECEE;
+	width:100%;
+    height:100%;
+}
+
+ul{
+	list-style-type: none;
+	background-color: #375BB2;
+	padding: 17px;
+	text-decoration: none;
+	text-indent: 60px;
+	padding-bottom:13.2px 
+}
+ul li{
+  margin: 0px;
+  border: thin white; 
+  background-color:white;
+  display:inline;
+  padding: 5px 17px 5px 17px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+ul > i{
+	margin-left:470px;
+	padding-top:-20px;
+}
+li a{
+	text-decoration: none;
+	color: black;
+	font-style: bold;
+}
+input{
+	float: right;
+	border-radius: 30px;
+	padding: 7.7px;
+	margin-top: -9px; 
+	margin-right: 55px;
+	background-color: #1A4978;
+	text-align:left;
+	border-style: hidden;
+	text-indent: 25px;
+}
+.container{
+  background-image: url("cat.jpg");
+  color:white;
+  height: 240px;
+  line-height: 1.2;
+  padding: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 5.5px;
+  border-bottom-color: darkgray; 
+
+}
+.container ul li:hover{
+	background-color: lightgray;
+}
+.container p,h1{
+	float: right;
+	font-family: Helvetica, sans-serif;
+	margin-top: -5px;
+	margin-right: 98.5px;
+}
+.set{
+	float: right;
+	padding: 43px;
+	margin-top: -35px;
+	margin-right: -10px;
+	font-size: 26px;
+	letter-spacing: 2px;
+}
+.click{
+	background-color: #F2B320;
+}
+.bottom{
+   display:inline-flex;
+   margin-left:60px;
+}
+.text1{
+	line-height: 1;
+	word-spacing: 1.7px;
+}
+.text2{
+  margin-left: 80px;
+  line-height: 1;
+  word-spacing: 1.7px;
+}
+.text3{
+  margin-left: 80px;
+  line-height: 1;
+  word-spacing: 1.7px;
+}
+.text1 p{
+	line-height: 1.15;
+}
+.text2 p{
+	line-height: 1.15;
+}
+.text3 p{
+	line-height: 1.15;
+}
+.text1 h3{
+	font-size: 27px;
+	font-style: bold;
+	text-indent: 40px;
+	margin-top: -32px;
+	font-family: Helvetica, sans-serif;
+}
+.text2 h3{
+	font-size: 27.5px;
+	font-style: bold;
+	text-indent: 40px;
+	margin-top: -32px;
+	font-family: Helvetica, sans-serif;
+}
+.text3 h3{
+	font-size: 27.5px;
+	font-style: bold;
+	text-indent: 40px;
+	margin-top: -32px;
+	font-family: Helvetica, sans-serif;
+}
+.img>i{
+	height: 120px;
+	width: 214px;
+	border:2px solid #375BB2;
+	border-radius: 5px;
+	text-align: center;
+	margin:60px;
+	margin-top: -20px;
+    margin-bottom: 5px;
+    padding-top: 23px;
+    background-color: #375BB2;
+}
+button{
+	border:1px hidden #FFA405;
+	background-color:#FFA405;
+	border-radius: 1.5px;
+}
+.footer{
+	display: inline-flex;
+	margin-right: -40px;
+	text-indent: 173px;
+	text-align: center;
+	margin-top: -55px;
+	font-size: 12px;
+}
+span{
+	color: #4E78EB;
+}
